@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mvcdepartament.view.Home">
+   <children>
+      <Button fx:id="btnDepartment" layoutX="69.0" layoutY="153.0" mnemonicParsing="false" onAction="#changeDepartmentView" text="Department" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="153.0" />
+      <Button fx:id="btnEmployee" layoutX="350.0" layoutY="153.0" mnemonicParsing="false" text="Employee" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="153.0" />
+   </children>
+</AnchorPane>
